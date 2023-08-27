@@ -3169,6 +3169,12 @@ header .navbar .navbar-brand .logo {
   margin-right: 0.5rem;
   width: 100px;
 }
+@media (max-width: 767px) {
+header .navbar .navbar-brand .logo {
+  width: 50px;
+}
+}
+
 header .navbar .navbar-collapse {
   margin-top: 0.4rem;
 }
@@ -3197,9 +3203,9 @@ header .navbar .navbar-collapse .nav_account.btn_demo2 .btn_sm_primary {
 header .navbar .navbar-collapse .nav_account.btn_demo3 .btn_sm_primary {
   border: 1px solid #edeef1;
 }
-@media (max-width: 991px) {
+@media (max-width: 767px) {
   header {
-    background: #ffffff;
+    background: #000000;
   }
   header .navbar-toggler:focus {
     border: 0;
@@ -3211,7 +3217,7 @@ header .navbar .navbar-collapse .nav_account.btn_demo3 .btn_sm_primary {
     padding: 0.75rem;
   }
   header .navbar-brand {
-    color: #0b2238 !important;
+    color: #ffffff !important;
     font-size: 18px !important;
   }
   header .navbar-brand .logo {
@@ -3224,7 +3230,7 @@ header .navbar .navbar-collapse .nav_account.btn_demo3 .btn_sm_primary {
     padding-bottom: 1rem;
   }
   header .navbar-collapse .navbar-nav .nav-item .nav-link {
-    color: #0b2238 !important;
+    color: #ffffff !important;
   }
   header .navbar-collapse .navbar-nav .nav-item .nav-link.active {
     color: #165df5 !important;
@@ -3292,23 +3298,24 @@ header .navbar .navbar-collapse .nav_account.btn_demo3 .btn_sm_primary {
 -----------------------------*/
 @media (max-width: 991px) {
   .fixed-header header {
-    background: #ffffff !important;
+    background: transparent !important;
+    backdrop-filter: blur(250%);
   }
 }
 .fixed-header header.nav-product .navbar-brand {
-  color: #0b2238 !important;
+  color: #ffffff !important;
 }
 .fixed-header header.nav-product .nav-pills .nav-item .nav-link {
-  color: #0b2238 !important;
+  color: #ffffff !important;
 }
 .fixed-header header.nav-product .nav-pills .nav-item .nav-link.active {
-  color: #165df5 !important;
+  color: #ffffff !important;
 }
 .fixed-header header.nav-product .nav_account .btn-default {
-  color: #0b2238 !important;
+  color: #ffffff !important;
 }
 .fixed-header header.nav-product .nav_account .btn-primary {
-  background-color: #165df5 !important;
+  background-color: #ffffff !important;
   color: #ffffff !important;
 }
 .fixed-header .gch_header_light .navbar .navbar-collapse .navbar-nav .nav-item .nav-link {
@@ -3614,8 +3621,8 @@ header .navbar .navbar-collapse .nav_account.btn_demo3 .btn_sm_primary {
   -o-backdrop-filter: none !important;
   -ms-backdrop-filter: none !important;
   backdrop-filter: none !important;
-  background: #ffffff !important;
-  color: #000 !important;
+  background: #000000 !important;
+  color: #ffffff !important;
 }
 @media (max-width: 991px) {
   .fixed-header .header-black .nav_account .filter-blur {
@@ -4924,6 +4931,11 @@ header .navbar .navbar-collapse .nav_account.btn_demo3 .btn_sm_primary {
 
 .top-main{
   margin-left: -20%;
+}
+@media (max-width: 767px) {
+  .top-main {
+    margin-left: 0%;
+  }
 }
 
 .spinnerLogo{
@@ -16024,6 +16036,18 @@ software_web
 }
 .media-body span{
   color: gray;
+}
+
+@media (max-width: 767px) {
+  .link-cont {
+    font-size: 10px;
+  }
+  .link-mail {
+    font-size: 10px;
+    margin-right: -30%;
+    margin-left: -33%;
+    scale: 0.6;
+}
 }
 #media-ex{
   color: #ffff;
