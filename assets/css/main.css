@@ -536,13 +536,19 @@ img {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #000000;
+  background-color: black;
   overflow: hidden;
   position: fixed;
   z-index: 999999;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+@media (max-width: 767px){
+  .loading_overlay {
+    width: 78%;
+    height: 78%;
+  }
 }
 .loading_overlay .loader_logo {
   position: relative;
@@ -3171,8 +3177,8 @@ header .navbar .navbar-brand .logo {
 }
 @media (max-width: 767px) {
 header .navbar .navbar-brand .logo {
-  scale: 2.5;
-  margin-left: 2%;
+  scale: 2.8;
+  margin-left: 20%;
 }
 }
 
@@ -18256,8 +18262,9 @@ html:not(.no-js) [data-aos="fade-up"] {
   position: absolute;
 }
 @media (max-width: 991px) {
-  .menu svg {
-    left: 0;
+  .menu {
+    left: 10%;
+    right: -5%;
   }
 }
 .menu svg path {
