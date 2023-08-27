@@ -3166,6 +3166,12 @@ header .navbar {
   height: 80px;
   padding: 0;
 }
+@media (max-width: 767px){
+  header .navbar {
+    height: 100px;
+    padding: 0;
+  }
+}
 header .navbar .navbar-brand {
   font-weight: 600;
   font-size: 22px;
@@ -3177,8 +3183,8 @@ header .navbar .navbar-brand .logo {
 }
 @media (max-width: 767px) {
 header .navbar .navbar-brand .logo {
-  scale: 2.5;
-  margin-left: 2%;
+  scale: 3.5;
+  margin-left: 3%;
 }
 }
 
