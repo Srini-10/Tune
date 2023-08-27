@@ -3266,7 +3266,7 @@ header .navbar .navbar-collapse .nav_account.btn_demo3 .btn_sm_primary {
 }
 @media (max-width: 767px) {
   .header-nav-center {
-    width: 75%;
+    width: 100%;
   }
 }
 .header-nav-center .navbar-brand {
