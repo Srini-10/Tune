@@ -536,8 +536,7 @@ img {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: transparent;
-  backdrop-filter: blur(300%);
+  background-color: black;
   overflow: hidden;
   position: fixed;
   z-index: 999999;
@@ -3261,7 +3260,6 @@ header .navbar .navbar-collapse .nav_account.btn_demo3 .btn_sm_primary {
 -----------------------------*/
 .header-nav-center {
   width: 100%;
-  height: 2%;
   left: 0;
   z-index: 20;
 }
@@ -16053,14 +16051,9 @@ software_web
 }
 
 @media (max-width: 767px) {
-  .link-cont {
-    font-size: 10px;
-  }
   .link-mail {
-    font-size: 10px;
     margin-right: 0%;
-    margin-left: -33%;
-    scale: 0.6;
+    margin-left: -4%;
 }
 }
 #media-ex{
