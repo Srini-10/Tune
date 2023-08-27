@@ -3261,8 +3261,9 @@ header .navbar .navbar-collapse .nav_account.btn_demo3 .btn_sm_primary {
 -----------------------------*/
 .header-nav-center {
   width: 100%;
+  height: 2%;
   left: 0;
-  z-index: 12;
+  z-index: 20;
 }
 @media (max-width: 767px) {
   .header-nav-center {
